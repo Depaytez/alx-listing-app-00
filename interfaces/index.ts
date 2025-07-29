@@ -11,7 +11,7 @@
 
 export interface FilterPillProps {
   label: string;
-  onClick: () => void;
+  onClick?: (label:string) => void;
   isActive?: boolean;
 }
 

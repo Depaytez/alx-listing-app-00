@@ -11,8 +11,8 @@ const Home: React.FC = () =>{
       style={{backgroundImage: "url('/assets/boat-on-river-background-img.jpg')"}}
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
-        <div className="relative z10 p-4">
-          <h1 className="text-3x1 md:text-5xl font-bold mb-4">Find Your Favourite Place Here</h1>
+        <div className="relative z-10 p-4">
+          <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold mb-4 text-green-600">Find Your Favourite Place Here</h1>
         </div>
       </section>
 
