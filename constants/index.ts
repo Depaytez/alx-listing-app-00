@@ -1,6 +1,8 @@
-import { PropertyProps } from "../interfaces/index";
+import { PropertyProps } from "@/interfaces/index";
 // export const API_BASE_URL = "https://api.example.com";
 // export const DEFAULT_IMAGE = "/assets/default.jpg";
+
+export const FILTER_LABELS: string[] = ["All", "Mountain View", "Ocean View", "Urban Area", "Ogun State", "Kwara State", "Lagos State"];
 
 export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
  {

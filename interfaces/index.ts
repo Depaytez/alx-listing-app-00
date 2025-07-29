@@ -1,12 +1,18 @@
-export interface CardProps {
-  title: string;
-  description: string;
-  image: string;
-}
+// export interface CardProps {
+//   title: string;
+//   description: string;
+//   image: string;
+// }
 
-export interface ButtonProps {
+// export interface ButtonProps {
+//   label: string;
+//   onClick: () => void;
+// }
+
+export interface FilterPillProps {
   label: string;
   onClick: () => void;
+  isActive?: boolean;
 }
 
 export interface PropertyProps {
@@ -29,10 +35,10 @@ export interface PropertyProps {
   discount?: string;
 }
 
-export interface accommodationTypeProps {
- title: string;
- onClick: () => void;
-}
+// export interface accommodationTypeProps {
+//  title: string;
+//  onClick: () => void;
+// }
 
 export interface LayoutProps {
   children: React.ReactNode; /* Props for layout components, containing React children nodes to be rendered within the layout. */
